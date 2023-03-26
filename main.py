@@ -6,7 +6,10 @@ DEFAULT_STAMINA = 80
 
 
 class Character:
-
+    """
+    Base class of a Character, with default attack,
+    defence and special attributes.
+    """
     BRIEF_DESC_CHAR_CLASS = 'отважный любитель приключений'
     RANGE_VALUE_ATTACK = (1, 3)
     RANGE_VALUE_DEFENCE = (1, 5)
